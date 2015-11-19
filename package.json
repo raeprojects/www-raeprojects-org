@@ -1,0 +1,25 @@
+{
+  "name": "raeprojects.org",
+  "version": "1.0.0",
+  "description": "raeprojects home page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raeprojects/www-raeprojects-org.git"
+  },
+  "keywords": [
+    "front-end"
+  ],
+  "author": "ambes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raeprojects/www-raeprojects-org/issues"
+  },
+  "homepage": "https://github.com/raeprojects/www-raeprojects-org#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
+}
