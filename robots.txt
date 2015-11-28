@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 # robotstxt.org/
 
 User-agent: *
 Disallow:
+=======
+# robotstxt.org/
+
+User-agent: *
+Disallow:
+>>>>>>> 6cc13a64b6f65c32ce72dd33c6e4eeeca8ef48d8
