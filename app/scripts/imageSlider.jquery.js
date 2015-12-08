@@ -8,7 +8,7 @@
     $.fn.imageSlider = function(option){
            var defaults= {
                 delay: 3000,
-                imageWidth: 1200,
+                imageWidth: 1400,
                 slideSpeed: 500,
                 pause: 9000,
                 imageSource: ["../img/eheader1.jpg", "../img/eheader6.jpg", "../img/eheader7.jpg", "../img/eheader9.jpg"],
@@ -95,7 +95,7 @@
               $(".btn2").on("click", function(){
                 if(k === 0){
                                      k =setting.imageSource.length -1;
-                                     $(".wraper").css("margin-left",-4800);
+                                     $(".wraper").css("margin-left",-5600);
                                  }
                 $(".wraper").animate({
                              "marginLeft": "+="+ setting.imageWidth},

@@ -1,10 +1,12 @@
 $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab|Stalemate);
+
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 $general-text: white;
-$menu-color: darkorange;
+$menu-color: #2c3e50;
 
 
 *{
@@ -13,122 +15,230 @@ $menu-color: darkorange;
 }
 /* Space out content a bit */
 body {
-background: url("../img/header5.jpg") no-repeat;
+//background-color: #34495e;
+background-image: url("../img/eheader9.jpg")no-repeat !important;
   background-size: cover;
+  background-attachment: fixed;
   padding-top: -20px !important;
   padding: 0 !important;
   margin-top: -20px !important;
   color: $general-text;
 }
+/* Navigation */
+
+
 .navbar {
-  padding-top: 20px !important;
-//argin-top: 20px !important;
-  margin:0 !important;
-  background-color: transparent !important;
-  color: $general-text !important;
-  border-bottom: none;
-
-  ul{
-    color: $general-text !important;
-  }
-a{
-    color:$general-text !important;
-    font-size: 1.5em;
-  }
-  a:hover{
-    background-color: $menu-color !important;
-    border-radius: 10%;
-  }
-}
-/*image slider stylesheet*/
-
-.containers {
-    position: fixed;
-    left:6%;
-    top: 2%;
-   //margin-top:100px;
-    width:1200px;
-    height: 600px;
-    overflow: hidden;
-    margin: auto;
-    padding:0;
-}
-.wraper {
-    padding:0;
-    margin:auto;
-    width:4800px;
-    height: 600px;
-}
-.wraper ul {
-    padding:0;
-    margin: 0;
-    display: block;
-    list-style: none;
-
-
-}
-.wraper ul li {
-    padding:0;
-    margin:0;
-    text-decoration: none;
-    display:inline;
-    float: left;
-}
-.wraper img {
-    width:1200px;
-    height: 600px;
+    background-color: transparent;
     border: 0;
+    margin-top: 0;
+    padding-top:0;
+
+         ul a {
+          color: #fff !important;
+          border:0 !important;
+         }
+        ul a:hover{
+          border-radius: 10px;
+          background-color: #674172 !important;
+          border:2px solid white;
+         }
+
+       ul {
+          text-align: right !important;
+           font-size: 1.5em !important;
+      }
+       ul li a{
+          text-align: right !important;
+      }
+}
+.navbar-brand {
+    font-size: 3em !important;
+    background-color: #314A24;
+    padding:15px 10px 5px 10px;
+//  border-radius: 10px;
+    color:#689B4E;
+ }
+ .sticky{
+  background-color: #202029;
+ }
+
+/*start Header*/
+.header{
+  min-height: 700px;
+  background-image: url("../img/eheader6.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height:auto;
+  padding:0;
+  margin:0;
+    .main-title{
+      text-align: center;
+      font-size: 2em;
+      margin:auto;
+    }
+
+       .container {
+        width: 100% !important;
+      }
+       .header-cont{
+        font-size: 1.5em;
+        width:60% !important;
+        margin-top:20%;
+        margin-left: 20%;
+      }
+       .header-cont button{
+        width: 40%;
+        margin-left:25%;
+        padding: 10px 0;
+        background-color: #689B4E;
+        margin-top: 10px;
+         border: none;
+       color: white;
+       font-weight: bold;
+       box-shadow: 0 5px 5px 0 #314A24;
+      }
+}
+/* end Header*/
+/*startabout */
+.about {
+  height:auto;
+  width:100%;
+  margin:auto;
+  background-color:#6D3F5C;
+  border-box: box-sizing;
+  padding-bottom: 10px;
+    .content{
+      width: 30%;
+       color: #252525;
+      margin:10px;
+      padding: 10px;
+    }
+     .btn{
+      text-align: center;
+      background-color: #689B4E;
+      margin-top: 10px;
+      border: none;
+      color: white;
+      font-weight: 5000;
+      box-shadow: 0 5px 5px 0 #314A24;
+    }
+}
+/* end about */
+/* START SERVICES */
+.services{
+  margin-top: 0;
+  padding-top: 0;
+  background-color:  grey !important;
+  color:#252525;
+  .content{
+    background-color: transparent !important;
     padding: 0;
     margin:0;
-    float:left;
+  }
+       h1{
+        text-align: center;
+        margin:0;
+        padding:0;
+      }
+      h3{
+        font-family: 'Stalemate', cursive;
+        font-weight: bold;
+        font-size: 3em;
+        padding-top:10px;
+        margin:0;
+        text-align: center;
+      }
+      p{
+        font-family: 'Josefin Slab', serif;
+        font-size: 1.2em;
+        padding:20px;
+      }
+      i{
+        padding:0;
+        margin:0;
+        padding-top: 10px;
+        text-align: center;
+        margin-left: 45%;
+      }
+      .row{
+        margin: 40px 0;
+      }
+      .head{
+        width:45%;
+        margin:0 10px;
+        height:auto;
+        background-color: lightgrey;
+      }
+      .cont{
+         width:45%;
+         margin:0 10px;
+        height:auto;
+        background-color: lightgrey;
+      }
 }
-.radio {
-    position: absolute;
-    bottom: 100px;
-    left: 200px;
-    text-align:center;
-    z-index: 9999;
-    display: inline;
+/* END SERVICES */
 
-}
-.btn1 {
+/* START CONTACT */
+.contact{
+  background-color: #7f8c8d;
+  .btn{
+    background-color: #689B4E;
+    margin-top: 10px;
+    border: none;
     color: white;
-    font-size: 3em;
-    position:absolute;
-    top:40%;
-    left:5%;
-    background: transparent;
-    border:none;
+    font-weight: bold;
+    box-shadow: 0 5px 5px 0 #314A24;
+  }
+  .font-awesome{
+    margin-top: 60px;
+    text-align: center;
+    .fa-facebook{
+      padding:7px  15px;
+      background-color:#3b5998;
+      color:white;
+      border:none;
+      border-radius:50%;
+    }
+    .fa-linkedin{
+      background-color: #007bb5;
+      color:white;
+      border:none;
+      border-radius:50%;
+    }
+    .fa-twitter{
+      background-color:#00aced;
+      color:white;
+      border:none;
+      border-radius:50%;
+    }
+    .fa-github{
+      background-color:#000;
+      color:white;
+      border:none;
+      border-radius:50%;
+    }
+  }
 }
-.btn2 {
-    color:white;
-    font-size: 3em;
-    position:absolute;
-    top:40%;
-    right:5%;
-    background: transparent;
-    border:none;
-}
-
-/*image slider stylesheet*/
-
-
+/* END CONTACT */
 
 /* Custom page header */
 
-.header .container{
+ .container .header {
     padding:0 !important;
     margin:0 !important;
   }
-/* Custom page footer */
+/*  page footer */
 
+.footer{
+  height:300px;
+  background-color: #2c3e50;
+}
 
-
-
+/* end footer */
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 80%;
+    max-width: 100%;
   }
 }
