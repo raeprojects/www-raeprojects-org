@@ -1,0 +1,1 @@
+$(document).ready(function(){function a(){$(window).scrollTop()>=100?$(".navbar").addClass("sticky"):$(".navbar").removeClass("sticky")}document.querySelector(".about");document.onscroll=a});
