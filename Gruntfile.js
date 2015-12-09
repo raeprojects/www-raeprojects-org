@@ -423,7 +423,7 @@ module.exports = function (grunt) {
   });
 
   grunt.loadNpmTasks('grunt-build-control');
-  
+
   grunt.registerTask('serve', 'start the server and preview your app', function (target) {
 
     if (target === 'dist') {
