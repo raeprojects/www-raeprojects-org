@@ -16,6 +16,7 @@ deploy:
     secure: HhLo08go5z+PBZkimdgLoTBBXQPzw0B1P2WHWmqtZ/H9RzGc7IUFE/6ubnewlyqy6Baa3mumcQ2A24lm98/ZZt8GZ+usI8dDF9maGVCFq2R53G1Rir+HleDVtkm/xGrxpvtLn/x+4QNselt2F6oODGNpmgGumaqMiabMm59ABw4CV3TULvWz1CKg/BC/YTVz58Equ0MhIZIk6igjc1PgOEiXfsKlBGVI5///MqjsuYB/6dtlrhzxPSpdGucnU0lmW+0TDzkX9WyEJPeDjTVLYNiviZmKIPw0fofc3BGCZs6QEibAFkJ40JF8CCzC3JdcV0vj7PFe5LEtWd+LGW+gew5HjVGcPkOtGwi8npTmHOlTZJRgrFySdJe6fy8N3we2Ht194GqPnJx8/D/F0p1fNq8/KujxQZX6L5BJNfO5a9iYgyD3q/cWBbxj2VIbYkrZAKK8LtnXrzXY+owmQYLiENB47atiwtJBg2ZoSsBw8ANR1RWSlyymdbwvoBxKUoZ324MO2l3yrAndheS1S4hauRs6bk52obcPUKMFkW+1/sDbxf15JcMhi48RN1jcDGSpHKqm7zHlfd2BfJC3U+tCRchD0gLYmgZBNhsL4sVyil4/0/lWALm10En1eDD8tvssCadnRRllbVIqIyx3UcKJC+JwymvtUatwHBW61ZzQyfA=
   bucket: www.raeprojects.org
   local-dir: dist
+  skip_cleanup: true
   acl: public_read
   on:
     repo: raeprojects/www-raeprojects-org
