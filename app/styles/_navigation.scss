@@ -1,0 +1,30 @@
+/*Navigation bar */
+.navbar {
+    background-color:transparent;
+    border:none;
+    font-family: 'Oswald', sans-serif;
+     ul a {
+       color:$navbar-font-color !important;
+       border:0 !important;
+       padding: 20px;
+     }
+     ul a:hover{
+       background-color: $navbar-hover !important;
+       border:2px solid white;
+     }
+
+     ul {
+          text-align: right !important;
+           font-size: $navbar-font-size !important;
+          }
+     ul li a{
+       text-align: right !important;
+     }
+}
+.navbar-brand {
+    font-size: 3em !important;
+    background-color:$navbar-brand-background;
+    padding:15px 10px 5px 10px;
+    color:$secondary-color;
+    min-height: 60px;
+ }

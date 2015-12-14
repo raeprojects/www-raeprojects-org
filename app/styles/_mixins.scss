@@ -1,0 +1,20 @@
+/*mixins*/
+@mixin border-radius($radius){
+    -moz-border-radius:$radius;
+    -webkit-border-radius:$radius;
+    border-radius: $radius;
+}
+@mixin add-border($size, $color, $position){
+    @if $position == 'all'{
+        border: $size solid $color;
+    }@elseif $position == 'top'{
+        border-top:$size solid $color;
+    }@elseif $position == 'right'{
+        border-right:$size solid $color;
+    }@elseif $position == 'bottom'{
+        border-bottom:$size solid $color;
+    }@elseif $position == 'left'{
+        border-left:$size solid $color;
+    }
+
+}
