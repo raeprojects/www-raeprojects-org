@@ -15,14 +15,19 @@
        margin:auto;
     }
 
-    .container {
-        width: 100% !important;
-      }
     .header-cont{
+    //    @include border-radius(0 80px);
+    //    @include add-border(5px, green, all);
+    //    background-color: #252525;
+     //   opacity: 0.3;
         font-size: 1.5em;
         width:60% !important;
+        padding:20px;
         margin-top:20%;
         margin-left: 20%;
+      }
+      blockquote{
+        font-size: 1.5em;
       }
 }
 /* end Header*/
@@ -57,8 +62,11 @@
   .content{
     background-color: transparent !important;
   }
-  h1{
-    text-align: center;
+   h1{
+        font-family: $main-headers-font-family;
+        font-weight: bold;
+        font-size: 3em;
+        text-align: center;
    }
   h3{
     font-family: 'Stalemate', cursive;
@@ -95,6 +103,11 @@
   padding:0;
   margin:0;
   text-align: center;
+   h1{
+        font-family: $main-headers-font-family;
+        font-weight: bold;
+        font-size: 3em;
+    }
   img {
     width:100%;
     height:300px;
@@ -111,6 +124,11 @@
 /* START CONTACT */
 .contact{
   background-color: $background-color-contact;
+    h1{
+        font-family: $main-headers-font-family;
+        font-weight: bold;
+        font-size: 3em;
+    }
     .font-awesome{
     margin-top: 60px;
     text-align: center;
