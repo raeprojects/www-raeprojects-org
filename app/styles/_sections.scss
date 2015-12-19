@@ -17,17 +17,24 @@
 
     .header-cont{
     //    @include border-radius(0 80px);
-    //    @include add-border(5px, green, all);
+     //   @include add-border(5px, green, all);
     //    background-color: #252525;
-     //   opacity: 0.3;
-        font-size: 1.5em;
-        width:60% !important;
+    //    opacity: 0.3;
+        line-height: 1.5em;
+        font-size: 2em;
+        font-weight: bold;
+        width:80% !important;
         padding:20px;
         margin-top:20%;
-        margin-left: 20%;
+        margin-left: 15%;
       }
-      blockquote{
+      .fa-quote-left, .fa-quote-right{
         font-size: 1.5em;
+        color: brown;
+      }
+      p{
+        text-align: right;
+        margin-right: 60px;
       }
 }
 /* end Header*/
@@ -84,6 +91,7 @@
     padding-top: 10px;
     text-align: center;
     margin-left: 45%;
+    color: $navbar-hover;
     }
  .row{
     margin: 40px 0;
