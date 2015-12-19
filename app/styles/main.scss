@@ -15,6 +15,7 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 @import "_forms.scss";
 @import "_buttons.scss";
 @import "_base.scss";
+@import "_responsive.scss";
 
 
 
@@ -56,8 +57,4 @@ $menu-color: #2c3e50;
   color:white;
 }
 /* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 90%;
-  }
-}
+

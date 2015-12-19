@@ -1,45 +1,11 @@
 /*Sections*/
 .header{
-  min-height: auto;
-  background-image: url($header-image);
-  background-size: cover;
-  background-attachment: fixed;
-  height:auto;
-  padding:0;
-  padding-bottom: 150px;
-  margin:0;
-  color: $base-font-color;
-    .main-title{
-       text-align: center;
-       font-size: 2em;
-       margin:auto;
-    }
-
-    .header-cont{
-    //    @include border-radius(0 80px);
-     //   @include add-border(5px, green, all);
-    //    background-color: #252525;
-    //    opacity: 0.3;
-        line-height: 1.5em;
-        font-size: 2em;
-        font-weight: bold;
-        width:80% !important;
-        padding:20px;
-        margin-top:20%;
-        margin-left: 15%;
-      }
-      .fa-quote-left, .fa-quote-right{
-        font-size: 1.5em;
-        color: brown;
-      }
-      p{
-        text-align: right;
-        margin-right: 60px;
-      }
+  display: none;
 }
 /* end Header*/
 /*startabout */
 .about {
+  margin-top: 70px !important;
   height:auto;
   width:100%;
   margin:auto;
@@ -53,10 +19,10 @@
       color:#689B4E;
      }
     .content{
-      width: 30%;
+      width: 100%;
       color: #252525;
       margin:10px;
-      padding: 10px;
+      padding: 10px 30px;
     }
 }
 /* end about */
@@ -91,13 +57,12 @@
     padding-top: 10px;
     text-align: center;
     margin-left: 45%;
-    color: $navbar-hover;
     }
  .row{
-    margin: 40px 0;
+    margin: 10px 0;
     }
  .block{
-     width:45%;
+     width:90%;
      margin:0 10px;
      margin-left: 30px;
      height:auto;
