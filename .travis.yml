@@ -8,7 +8,6 @@ before_script:
 - bower install
 - npm install grunt-cli
 - grunt build
-- ls -alF
 deploy:
   provider: s3
   access_key_id: AKIAIOVIOPLVOEVHJUQA
