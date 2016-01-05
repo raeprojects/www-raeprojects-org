@@ -32,6 +32,8 @@
   padding-top: 0;
   background-color: $background-color-services !important;
   color: $base-font-color;
+  padding-top: 50px;
+  padding-bottom: 50px;
   .content{
     background-color: transparent !important;
   }
@@ -56,24 +58,61 @@
   i{
     padding-top: 10px;
     text-align: center;
-    margin-left: 45%;
+    margin-left: 30%;
+    margin-top: 15px;
+    padding:30px 40px;
+    @include border-radius(50%);
+    color: white;
     }
  .row{
     margin: 10px 0;
     }
  .block{
      width:90%;
-     margin:0 10px;
-     margin-left: 30px;
+     margin-bottom:20px;
+     margin-left: 20px;
      height:auto;
-     background-color: $primary-color;
+     background-color: white;
+     color: grey;
+     .first {
+      background-color:#9365B8;
+
+     }
+     .second{
+      background-color: #54acd2;
+      padding: 30px 45px;
+     }
+     .third{
+      background-color: #61BD6D;
+       padding:30px 35px;
+     }
      }
 }
 /* END SERVICES */
+// start review
+.review{
+  background-color:  #2e5367;
+  height:auto;
+   .first{
+    background-color: skyblue;
+    height: 300px;
+    padding:50px;
+    padding-top: 60px;
+  }
+  .second{
+    background-color: white;
+    font-size: 2em !important;
+    height: 300px;
+    color:grey;
+    padding:40px;
+    padding-top: 60px;
+  }
+}
+// end review
 /* START PORTFOLIO */
 .portfolio {
-  background-color:$background-color-portfolio;
-  padding:0;
+  background-color:$background-color-services;//$background-color-portfolio;
+  padding:60px;
   margin:0;
   text-align: center;
    h1{
@@ -97,6 +136,7 @@
 /* START CONTACT */
 .contact{
   background-color: $background-color-contact;
+  padding:60px;
     h1{
         font-family: $main-headers-font-family;
         font-weight: bold;

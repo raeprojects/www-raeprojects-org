@@ -20,6 +20,8 @@
          }
 
         .header-cont{
+            font-family: 'Raleway', sans-serif !important;
+            color: lightblue;
         //    @include border-radius(0 80px);
          //   @include add-border(5px, green, all);
         //    background-color: #252525;
@@ -48,6 +50,6 @@
          }
     }
     .services .block{
-        width:45%;
+        width:31%;
      }
 }
