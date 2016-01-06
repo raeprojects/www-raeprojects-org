@@ -5,6 +5,8 @@
 /* end Header*/
 /*startabout */
 .about {
+  
+  line-height: 1.3em;
   margin-top: 70px !important;
   height:auto;
   width:100%;
@@ -15,10 +17,11 @@
     p{
      color:silver;
      }
-     h3{
-      color:#689B4E;
+     h1{
+     font-family: $main-headers-font-family; 
      }
     .content{
+      font-family: 'Montserrat', sans-serif;
       width: 100%;
       color: #252525;
       margin:10px;
@@ -36,6 +39,7 @@
   padding-bottom: 50px;
   .content{
     background-color: transparent !important;
+    
   }
    h1{
         font-family: $main-headers-font-family;
@@ -47,6 +51,7 @@
     font-family: 'Stalemate', cursive;
     font-weight: bold;
     font-size: 3em;
+    color:grey;
     padding-top:10px;
     text-align: center;
     }
@@ -71,6 +76,7 @@
      width:90%;
      margin-bottom:20px;
      margin-left: 20px;
+     font-size:1.1em;
      height:auto;
      background-color: white;
      color: grey;
@@ -91,18 +97,20 @@
 /* END SERVICES */
 // start review
 .review{
-  background-color:  #2e5367;
+  background-color: #2e5367;
   height:auto;
    .first{
-    background-color: skyblue;
-    height: 300px;
+    background-color: #54acd2;
+    height: 400px;
     padding:50px;
     padding-top: 60px;
   }
   .second{
-    background-color: white;
+    background-image: url(../images/eheader7.jpg);
+    background-size: cover;
+    // background-attachment: fixed;
     font-size: 2em !important;
-    height: 300px;
+    height: 400px;
     color:grey;
     padding:40px;
     padding-top: 60px;
@@ -141,6 +149,7 @@
         font-family: $main-headers-font-family;
         font-weight: bold;
         font-size: 3em;
+        color:silver;
     }
     .font-awesome{
     margin-top: 60px;

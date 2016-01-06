@@ -20,6 +20,9 @@ ul, li {
 input, button, textarea {
     @include border-radius(0px);
 }
-h1,h2,h3,h4,h5,h6{
-    color:$secondary-color;
+h1,h2,h3{
+    color:#9365B8;
+}
+h4,h5,h6{
+    color:grey;
 }
