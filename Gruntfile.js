@@ -466,7 +466,7 @@ module.exports = function (grunt) {
     'useminPrepare',
     'concurrent:dist',
     'postcss',
-    //'concat',
+    'concat',
     'cssmin',
     'uglify',
     'copy:dist',
