@@ -16,6 +16,7 @@ deploy:
   bucket: dev.raeprojects.org
   local-dir: dist
   skip_cleanup: true
+  region: us-west-2
   acl: public_read
   on:
     repo: raeprojects/www-raeprojects-org
