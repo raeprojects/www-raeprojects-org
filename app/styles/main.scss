@@ -31,7 +31,7 @@ $menu-color: #2c3e50;
 
 
  .sticky{
-  background-color: #202029;
+  display:block !important;
  }
 
 /*start Header*/
@@ -46,6 +46,7 @@ $menu-color: #2c3e50;
 
 /* end footer */
 .goto-top{
+  display:none;
   width:50px;
   height:50px;
   position:fixed;

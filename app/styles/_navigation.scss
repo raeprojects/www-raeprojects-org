@@ -1,26 +1,30 @@
 /*Navigation bar */
 .navbar {
-  //  background-color:transparent;
+    background-color:$navigation-background-color !important;
+    margin-top:20px;
+    margin-bottom:0;
     border:none;
-    font-family: 'Oswald', sans-serif;
+    border-radius:0;
+    font-family: $navbar-font-family;
+    font-weight: 300; 
+     ul {
+          text-align: right !important;
+           font-size: $navbar-font-size !important;
+    }
+    ul li{
+      box-sizing: border-box !important;
+    }
      ul a {
        color:$navbar-font-color !important;
        border:0 !important;
        padding: 20px;
+      text-align: right !important;
      }
      ul a:hover{
-       //background-color: $navbar-hover !important;
-       border:2px solid white;
        color: silver !important;
-     }
-
-     ul {
-          text-align: right !important;
-           font-size: $navbar-font-size !important;
-          }
-     ul li a{
-       text-align: right !important;
-     }
+       
+     }  
+     
 }
 .navbar-brand {
     font-size: 3em !important;

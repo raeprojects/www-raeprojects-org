@@ -1,51 +1,38 @@
 /*Forms*/
 .contact{
   input[type='text'],input[type='email'],input[type='email']{
-    height: 40px;
-    font-size: 18px;
+    height: 35px;
+    font-size: 16px;
+    background-color:#ecf0f1;
     @include border-radius(0px);
   }
   textarea{
     width:100%;
-    font-size: 18px;
+    font-size: 16px;
     padding-top: 5px;
+    background-color: #ecf0f1;
     @include border-radius(0px);
   }
-  .btn{
-    height:40px;
-    background-color: #7f8c8d;
-    margin-top: 10px;
-    border: none;
-    color: white;
-    font-size:20px;
-    font-weight: bold;
-    //box-shadow: 0 5px 5px 0 #314A24;
-    @include border-radius(30px);
-    }
-    .btn:active{
-      background-color: #252525 !important;
-      color:grey;
-    }
 }
 /*Form-footer*/
 .footer{
    .btn{
-    @include border-radius(30px);
-    @include add-border(2px, #689B4E, all);
+    font-family: 'Droid Sans', sans-serif; 
+    background-color: transparent;
+    @include add-border(3px, #6FC7CE, all);
+    @include border-radius(30px);  
     font-size: 15px;
     font-weight: bold;
-    background-color: transparent;// #689B4E;
     margin-top: 10px;
-   // border-radius: 0;
-    color:white;
+    color:silver;
     &:hover{
-      color:#689B4E;
+      color:grey;
     }
   }
   .form-control{
-    @include add-border(2px,grey, all);
-    background-color: transparent;
-    color:white;
+    // @include add-border(2px,grey, all);
+    background-color: #ecf0f1;
+    color:grey;
     border-radius: 0;
   }
 }

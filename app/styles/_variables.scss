@@ -2,21 +2,27 @@
 $base-font-size: 15px;
 $base-font-family: 'Open Sans', sans-serif;
 $base-font-color: #aaa;
-$navbar-font-color: #689B4E;
+$navbar-font-color: #6FC7CE;
 $navbar-font-size: 1.5em;
-$main-headers-font-family:'Lobster', cursive;//'Yesteryear', cursive;
+$main-headers-font-family:'Droid Sans', sans-serif;//'Lobster', cursive;
+$main-headers-color:#d6846e;
+$link-color:#00aff0;
+$navbar-font-family:'Oswald', sans-serif;
+$quotation-mark-color:#d6846e;
 /*background colors*/
 $primary-color:#2c3e50;
 $secondary-color:#689B4E;
 $light-color:#fff;
 $dark-color: #2c3e50;
 $navbar-brand-background: #314A24;
+$navigation-background-color:#252525;
 $navbar-hover:#689B4E;
 /* backgroundcolor*/
  $background-color-about:#2b334f;
- $background-color-services:lightgrey; //#2e5367;
- $background-color-portfolio: #267481;
- $background-color-reviews: #fcb052;
+ $background-color-services:#F8F8F8;
+ $services-icon-background:#54acd2;
+ $background-color-portfolio: #F8F8F8;
+ $background-color-reviews: #1abc9c;
  $background-color-contact: #9365B8;//#f06a59;
  /*Header area*/
  $header-image:"../images/eheader6.jpg";
