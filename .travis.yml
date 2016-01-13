@@ -7,7 +7,6 @@ before_script:
 - npm cache clean
 - npm install bower
 - bower install
-- npm install --save-dev vinyl-fs@2.2.1 
 - npm install grunt-cli
 - grunt build
 deploy:
