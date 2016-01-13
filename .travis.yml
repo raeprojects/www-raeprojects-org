@@ -6,6 +6,7 @@ before_script:
 - npm install
 - npm install bower
 - bower install
+- npm install --save imagemin@3.2.2
 - npm install grunt-cli
 - grunt build
 deploy:
