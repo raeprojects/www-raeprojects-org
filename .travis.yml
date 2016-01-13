@@ -8,6 +8,7 @@ before_script:
 - npm install bower
 - bower install
 - npm install grunt-cli
+- rm -R node_modules/vinyl-fs/node_modules/
 - grunt build
 deploy:
   provider: s3
