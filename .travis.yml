@@ -4,6 +4,7 @@ node_js:
 before_script:
 - gem install compass
 - npm install
+- npm cache clean
 - npm install bower
 - bower install
 - npm install --save imagemin@3.2.2
