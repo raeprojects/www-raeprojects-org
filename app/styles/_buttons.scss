@@ -45,16 +45,17 @@
   .btn{
       font-family: 'Droid Sans', sans-serif; 
       padding:5px;
-      margin-top: 30px;
-      color: silver;
+      margin-top: 15px;
+      color: grey;
       font-size:20px;
       font-weight: bold;
-      background-color: transparent;
-      @include add-border(3px, #6FC7CE, all);
-      @include border-radius(30px);  
+      background-color: darken($background-color-contact,15);
+      border:none;
+     // @include add-border(3px, #6FC7CE, all);
+      @include border-radius(0);  
       }
       .btn:active{
-        background-color: #252525 !important;
+        background-color: darken($background-color-contact,10);
         color:grey;
       }
       .btn:hover {

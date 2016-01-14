@@ -3,35 +3,56 @@
    .block{
      width:100%;
      margin-bottom:20px;
-     margin-left: 0;
-     margin-right: 0; 
+     text-align: center; 
      font-size:1.1em;
      height:auto;
      background-color: transparent;//white;
      color: grey;
+     i{
+       margin-left: 0; 
+     }
      .first {
       background-color:$services-icon-background;//#9365B8;
-      margin-left:40%;
-
      }
      .second{
       background-color: $services-icon-background;
       padding: 30px 45px;
-      margin-left:40%;
      }
      .third{
       background-color:$services-icon-background;// #61BD6D;
       padding:30px 35px;
-      margin-left:40%;
      }
      }
  }
  .portfolio{
-   img{
-     width:50%;
-     float:left;
-   }
- }
+  .row div{
+          padding:0 !important;
+          float:left !important;
+          clear:right !important;
+        }
+    .small{
+      width:50%;
+      height:auto;
+      margin:0;
+      box-sizing: border-box;
+      float:left;
+      clear:both;
+      img{
+        width:100%;
+        float:left;
+        clear: both;
+      }
+    }
+    .big{
+      width:100%;
+      height:auto;
+      margin:0 ;
+      box-sizing: border-box;
+    }
+    .separate{
+      width:100%;
+      margin:0 auto;
+  }
 
 }
 
@@ -55,6 +76,7 @@
           margin:0;
           color:  $base-font-color;
           border-bottom:0;
+          
         .main-title{
            text-align: center;
            font-size: 2em;
@@ -97,31 +119,77 @@
     }
     .services .block{
         width:33.3%;
+        text-align: center;
+        i{
+          margin-left: 0; 
+        }
          .first {
-          background-color:$services-icon-background;
-          margin-left:30%;
-
+          background-color:$services-icon-background;         
          }
          .second{
           background-color: $services-icon-background; //#54acd2;
-          padding: 30px 45px;
-          margin-left:30%;
+          padding: 30px 45px;          
          }
          .third{
           background-color: $services-icon-background;//#61BD6D;
-           padding:30px 35px;
-           margin-left:30%;
+           padding:30px 35px;        
          }
      }
-     .portfolio{
-   img{
-     width:100%;
+     .review{
+       .wrapper{
+         font-size: 1.5em !important;
+         padding:50px;
+       }
+      .customer-name{
+      padding:0  200px 100px 100px !important;
+      text-align:right;
+      margin-bottom:50px;
+      margin-right:100px;
+    }
+     }
+  
      
-   }
- }
+       .portfolio {
+        background-color:$background-color-portfolio;
+        //margin-left:80px;
+        text-align: center;
+        img{
+          width:100%;
+        }
+               
+         .row div{
+         // padding:2px !important;
+          float:left !important;
+          clear:right !important;
+        }
+        h1{
+              font-family: $main-headers-font-family;
+        }
+        .small{
+          width:50% !important;
+          height:auto;
+          background: blue; 
+          box-sizing: border-box;
+         }
+        .big{
+          width:100%;
+          height:auto;
+          background: green;
+          box-sizing: border-box;
+        }
+        .separate{
+          width:50%;
+          //margin:2px !important;
+        }
+        
+      }
+       
+     
+   
     .contact{
         i {
           font-size: 2.7em;
+          margin:50px 0 0 !important;
         }
     } 
     .footer{
@@ -150,7 +218,7 @@
 }
 
 
-
+}
 
 
 
